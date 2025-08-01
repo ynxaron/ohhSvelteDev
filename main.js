@@ -1,3 +1,3 @@
 import { mount } from 'svelte'
-import Solution from './Solutions/S1/S/mod.svelte'
+import Solution from './Solutions/S2/Q/mod.svelte'
 mount(Solution, {target: document.getElementById('app')})
