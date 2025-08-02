@@ -7,6 +7,8 @@ Solved Assignment and Difficult Question For Section 1 of the guide available in
 the repo
 
 - [x] Section 1
+- [x] Section 2
+- [x] Section 3
 
 # Instructions For Installing
 ```bash
