@@ -11,7 +11,10 @@
   });
 </script>
 
-<p>{JSON.stringify(emojiDict)}</p>
+{#each Object.entries(emojiDict) as [emoji, vote]}
+    <p>{emoji} {vote}</p>
+{/each}
+
 <EmojiVoter {emojiDict} emoji="👍"></EmojiVoter>
 <EmojiVoter {emojiDict} emoji="😍"></EmojiVoter>
 <EmojiVoter {emojiDict} emoji="😡"></EmojiVoter>
